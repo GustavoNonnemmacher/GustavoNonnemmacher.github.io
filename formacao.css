@@ -1,0 +1,143 @@
+.formacao {
+  background: #141414;
+  color: white;
+}
+.formacao .subtitulo {
+  font-size: 8rem;
+  word-break: break-all;
+  line-height: 1;
+  text-transform: uppercase;
+  max-width: 4ch;
+  font-family: "fira sans", Arial, Helvetica, sans-serif;
+}
+.formacao-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  gap: 100px;
+  margin-top: 60px;
+}
+
+.formacao .subtitulo {
+  color: black;
+}
+
+.formacao-texto {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  max-width: 40ch;
+  color: #a3a3a3;
+  margin-bottom: 60px;
+}
+
+.faculdade-lista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 70px;
+  margin-bottom: 60px;
+}
+
+.faculdade {
+  background: black;
+  padding: 20px;
+  border-radius: 4px;
+  flex: 1;
+}
+
+.faculdade-tipo {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  display: block;
+  color: #a3a3a3;
+  position: relative;
+}
+
+.faculdade-modelo {
+  font-size: 1.125rem;
+  margin-bottom: 30px;
+}
+
+.faculdade-modelo1 {
+  margin-bottom: 50px;
+  font-size: 1.125rem;
+}
+
+.faculdade-modelo ::before {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(#078eac, #b4e9f4);
+  position: absolute;
+  top: 0px;
+  left: -4px;
+}
+
+.faculdade-nome {
+  font-size: 0.875rem;
+  color: #a3a3a3;
+}
+
+.cursos {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.cursos-nome {
+  font-size: 0, 875rem;
+  color: #a3a3a3;
+}
+
+.formacao-extra li {
+  font-size: 1.125rem;
+  color: #a3a3a3;
+  margin-bottom: 12.5px;
+}
+
+.formacao-extra span {
+  color: #a3a3a1;
+}
+
+.formacao-extra li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.formacao-extra {
+  margin-top: 20px;
+}
+
+.whit {
+  color: white;
+}
+
+@media (max-width: 800px) {
+  .formacao-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .formacao-container .subtitulo {
+    font-size: 4rem;
+    max-width: initial;
+    color: #078eac;
+  }
+  .formacao-texto {
+    font-size: 1rem;
+  }
+  .formacao-extra li {
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 510px) {
+  .formacao-container .subtitulo {
+    font-size: 2rem;
+    max-width: initial;
+  }
+}

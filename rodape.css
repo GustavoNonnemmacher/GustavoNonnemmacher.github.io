@@ -1,0 +1,68 @@
+.rodape {
+  background: black;
+  color: white;
+}
+
+.rodape-container {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  max-width: 1200px;
+  padding: 40px 40px;
+  gap: 300px;
+  margin: 0 auto;
+}
+
+.grid1 {
+  margin-top: 100px;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: 35px 1fr;
+  gap: 15px;
+  margin-top: 100px;
+}
+
+.rodape-texto {
+  color: #a3a3a3;
+  font-size: 1.5rem;
+  line-height: 1.33;
+}
+.grid2 {
+  align-items: center;
+}
+.grid2 .rodape-email {
+  font-size: 1.5rem;
+  color: #a3a3a3;
+  text-decoration: none;
+}
+
+.grid2 a:hover {
+  color: #525252;
+}
+
+@media (max-width: 450px) {
+  .grid2 .rodape-email {
+    font-size: 0.875rem;
+  }
+}
+@media (max-width: 1100px) {
+  .rodape-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+  }
+}
+
+@media (max-width: 800px) {
+  .rodape-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .rodape p {
+    font-size: 1.225rem;
+  }
+  .rodape-email {
+    font-size: 1.225rem;
+  }
+}
