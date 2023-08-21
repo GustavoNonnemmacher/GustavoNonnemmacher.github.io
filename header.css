@@ -48,6 +48,9 @@
   .header-menu #botao {
     display: none;
   }
+  .header {
+    border-bottom: 1px solid #e5e5e5;
+  }
 }
 
 @media (max-width: 400px) {

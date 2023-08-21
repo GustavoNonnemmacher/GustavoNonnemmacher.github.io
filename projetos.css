@@ -144,6 +144,7 @@ img {
   border-radius: 4px;
   margin-bottom: 120px;
   position: relative;
+  margin-right: 26px;
 }
 
 .projetos-conteudo::before {
@@ -271,6 +272,7 @@ img {
   background: #f5f5f5;
   padding: 32px;
   margin-left: 40px;
+  margin-right: 26px;
 }
 
 .tecnologia-bg p {
